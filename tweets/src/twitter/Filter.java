@@ -27,7 +27,7 @@ public class Filter {
      *         in the same order as in the input list.
      */
     public static List<Tweet> writtenBy(List<Tweet> tweets, String username) {
-        throw new RuntimeException("not implemented");
+        throw new RuntimeException("not implemented"); 
     }
 
     /**
@@ -55,7 +55,7 @@ public class Filter {
      * @return all and only the tweets in the list such that the tweet text (when 
      *         represented as a sequence of nonempty words bounded by space characters 
      *         and the ends of the string) includes *at least one* of the words 
-     *         found in the words list. Word comparison is not case-sensitive,
+     * h        found in the words list. Word comparison is not case-sensitive,
      *         so "Obama" is the same as "obama".  The returned tweets are in the
      *         same order as in the input list.
      */
